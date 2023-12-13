@@ -1,0 +1,30 @@
+{
+    "name": "morningmedley/theme",
+    "description": "A theme",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mathias Munk",
+            "email": "mh@morningtrain.dk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MyTheme\\": "app/"
+        }
+    },
+    "require": {
+        "morningmedley/medley": "dev-master"
+    },
+    "require-dev":{
+        "morningmedley/service-provider-detector": "dev-master"
+    },
+    "prefer-stable": true,
+    "config": {
+        "allow-plugins": {
+            "morningmedley/service-provider-detector": true
+        }
+    }
+
+}
