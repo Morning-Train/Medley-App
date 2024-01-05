@@ -2,7 +2,8 @@
     "name": "morningmedley/theme",
     "description": "A theme",
     "minimum-stability": "stable",
-    "license": "proprietary",
+    "type": "project",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mathias Munk",
@@ -15,16 +16,6 @@
         }
     },
     "require": {
-        "morningmedley/medley": "dev-master"
-    },
-    "require-dev":{
-        "morningmedley/service-provider-detector": "dev-master"
-    },
-    "prefer-stable": true,
-    "config": {
-        "allow-plugins": {
-            "morningmedley/service-provider-detector": true
-        }
+        "morningmedley/medley": "^0"
     }
-
 }
