@@ -1,5 +1,5 @@
 <?php return [
     'paths' => [
-        ['Theme\\Hooks', 'app/Hooks'],
+        ['MyTheme\\Hooks', 'app/Hooks'],
     ],
 ];

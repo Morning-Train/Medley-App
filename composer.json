@@ -1,15 +1,9 @@
 {
-    "name": "morningmedley/theme",
-    "description": "A theme",
+    "name": "my/theme",
+    "description": "My Theme",
     "minimum-stability": "stable",
     "type": "project",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Mathias Munk",
-            "email": "mh@morningtrain.dk"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "MyTheme\\": "app/"
