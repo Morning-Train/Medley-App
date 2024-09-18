@@ -10,6 +10,6 @@
         }
     },
     "require": {
-        "morningmedley/medley": "^0"
+        "morningmedley/medley": "^0.2"
     }
 }
