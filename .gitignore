@@ -2,6 +2,7 @@
 node_modules
 /vendor
 /public/build
-/_cache
+/bootstrap/cache
+/storage/framework/debug.log
 
 !/.idea/blade.xml
