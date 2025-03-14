@@ -29,7 +29,7 @@ class LoginPage
         ?>
         <style>
             #login h1 a {
-                background-image: url(<?php echo asset('images/icons/logo.svg') ?>);
+                background-image: url(<?php echo asset('images/logo.svg') ?>);
                 height: 180px;
                 width: 180px;
                 background-size: 180px;
