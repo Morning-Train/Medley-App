@@ -9,6 +9,11 @@
             "MedleyApp\\": "app/"
         }
     },
+    "scripts": {
+        "post-root-package-install": [
+            "@php wp artisan medley:setup"
+        ]
+    },
     "require": {
         "morningmedley/medley": "^0.2"
     }

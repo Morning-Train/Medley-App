@@ -1,9 +1,9 @@
 # Morningmedley Theme boilerplate
 
 ## Installation
-`composer create-project morningmedley/theme`
+`composer create-project morningmedley/app`
 
 ## Setup
 
-- Define your theme in style.css
+- Run `wp artisan medley:setup`
 - Build assets `npm run build`
