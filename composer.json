@@ -1,12 +1,12 @@
 {
-    "name": "my/theme",
-    "description": "My Theme",
+    "name": "medley/app",
+    "description": "Medley App",
     "minimum-stability": "stable",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "MyTheme\\": "app/"
+            "MedleyApp\\": "app/"
         }
     },
     "require": {
