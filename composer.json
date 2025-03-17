@@ -11,7 +11,7 @@
     },
     "scripts": {
         "post-root-package-install": [
-            "@php wp artisan medley:setup"
+            "@php wp artisan medley:setup --auto"
         ]
     },
     "require": {
