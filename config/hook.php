@@ -1,5 +1,5 @@
 <?php return [
     'paths' => [
-        ['MyTheme\\Hooks', 'app/Hooks'],
+        ['MedleyApp\\Hooks', 'app/Hooks'],
     ],
 ];

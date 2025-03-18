@@ -1,13 +1,18 @@
 {
-    "name": "my/theme",
-    "description": "My Theme",
+    "name": "medley/app",
+    "description": "Medley App",
     "minimum-stability": "stable",
     "type": "project",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "MyTheme\\": "app/"
+            "MedleyApp\\": "app/"
         }
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "vendor/bin/medley-setup"
+        ]
     },
     "require": {
         "morningmedley/medley": "^0.2"
