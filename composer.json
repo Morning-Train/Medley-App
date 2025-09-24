@@ -15,7 +15,6 @@
         ]
     },
     "require": {
-        "morningmedley/medley": "^0.3",
-        "spatie/laravel-ignition": "^2.9.1"
+        "morningmedley/medley": "^0.4"
     }
 }
